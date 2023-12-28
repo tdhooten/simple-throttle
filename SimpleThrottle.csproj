@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SimpleThrottle</Title>
+    <Authors>tdhooten</Authors>
+    <Company />
+    <Description>A small .NET Core library providing a simple thread-safe object which throttles an arbitrary set of actions, rate limiting them to the specified number of actions within the specified timespan.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/tdhooten/simple-throttle</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>throttle; rate-limit</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>SimpleThrottle</PackageId>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
